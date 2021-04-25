@@ -1,0 +1,59 @@
+.posts-card-container {
+    margin: 1% 10% 1% 10%;
+}
+
+.post-card {
+    margin: 10px;
+    width: auto;
+    height: fit-content;
+}
+
+.avatar{
+    border: 1px solid whitesmoke;
+}
+
+.post-image {
+    height: 500px;
+    width: 500px;
+    margin: 5px;
+}
+
+.horizontal-rule {
+    border-top: 2px solid lightgray;
+}
+
+.post-caption {
+    overflow: hidden;
+    text-overflow: clip;
+    margin-top: 5px;
+}
+
+.post-tags {
+    color: blue;
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-comment {
+    display: flex;
+}
+
+.post-comment-form-control {
+    width: 550px;
+}
+
+.add-button {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.divider{
+    margin-top: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+

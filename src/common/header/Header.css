@@ -1,0 +1,36 @@
+.header-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #263238; /* Header background color */
+    height: 60px;
+}
+
+.logo {
+    color: #fff; /* Header logo text color */
+    padding: 20px 20px 19px 20px; /* Ensures logo to be vertically in the center */
+    font-weight: bold;
+    font-size: 18px; /* Header logo text font size */
+    cursor: pointer;
+}
+
+.header-right-flex-container{
+    display: flex;
+}
+
+.search-box {
+    border-radius: 4px; /* Border radius has to be 4px*/
+    width: 300px; /* Width of the search box has to be 300px */
+    background: #c0c0c0; /* Search-box background color */
+    height: 40px;
+    margin: 10px 0px 10px 0px; /* Ensures that search-box is vertically in the center*/
+}
+
+.horizontal-line{
+    margin: 2px 10px 2px 10px;
+}
+
+.MuiMenu-list {
+    background-color: #c0c0c0;
+    color: black;
+}
