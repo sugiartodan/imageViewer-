@@ -4,7 +4,7 @@ import './index.css';
 import ImageViewer from "./ImageViewer";
 import {BrowserRouter as Router} from "react-router-dom";
 
-//This imports font for Typography across the application.
+
 import 'typeface-roboto';
 
 ReactDOM.render(
