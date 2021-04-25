@@ -1,15 +1,13 @@
 import React, {Component, Fragment} from 'react'
 
-//Router import for redirection.
+
 import {Route, Switch} from "react-router-dom";
 
 import Login from "./screens/login/Login";
 import Home from "./screens/home/Home";
 import Profile from "./screens/profile/Profile";
 
-/**
- * This class represents the whole ImageViewer Application.
- */
+
 class ImageViewer extends Component {
     render() {
         return <Fragment>
